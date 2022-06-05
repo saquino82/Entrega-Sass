@@ -34,6 +34,7 @@ main {
     .main-tienda {
         display: flex;
         flex-wrap: wrap;
+
     }
 
     h2 {
@@ -81,39 +82,36 @@ main {
         }
 
         .img-car {
-            @include cuadro (0.2rem, #0f0f0e, 5px, solid);
+            @include cuadro (0.2rem, $colorCuatro, 5px, solid);
         }
     }
 
     .imagenes-varias {
         width: 30%;
-        @include cuadro (1rem, #0f0f0e, 5px, solid);
-        }
+        @include cuadro (1rem, $colorCuatro, 5px, solid);
+    }
 
     .imagenes-varias1 {
         width: 15%;
-        @include cuadro (1rem, #0f0f0e, 5px, solid);
+        @extend .imagenes-varias;
     }
 
     .desplegablesMain {
         background-color: $colorPrincipal;
     }
 
-    .desplegables-main {
-        background-color: $colorPrincipal;
-    }
-
-    .main-tienda {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .card {
-        @include cuadro (0.2rem, #0f0f0e, 5px, solid);
-    
+        @extend .imagenes-varias;
 
         .card-body {
             background-color: $colorSecundario;
+        }
+
+        .btn-primary {
+            background-color: $colorCuatro;
+            border: none;
+            color: black;
+
         }
     }
 }

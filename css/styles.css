@@ -94,35 +94,25 @@ main {
       background-color: wheat; }
     main .carouseles .img-car {
       margin: 0.2rem;
-      border: #0f0f0e;
+      border: #de9767;
       border-width: 5px;
       border-style: solid; }
-  main .imagenes-varias {
+  main .imagenes-varias, main .imagenes-varias1, main .card {
     width: 30%;
     margin: 1rem;
-    border: #0f0f0e;
+    border: #de9767;
     border-width: 5px;
     border-style: solid; }
   main .imagenes-varias1 {
-    width: 15%;
-    margin: 1rem;
-    border: #0f0f0e;
-    border-width: 5px;
-    border-style: solid; }
+    width: 15%; }
   main .desplegablesMain {
     background-color: #FFC288; }
-  main .desplegables-main {
-    background-color: #FFC288; }
-  main .main-tienda {
-    display: flex;
-    flex-wrap: wrap; }
-  main .card {
-    margin: 0.2rem;
-    border: #0f0f0e;
-    border-width: 5px;
-    border-style: solid; }
-    main .card .card-body {
-      background-color: #FCECDD; }
+  main .card .card-body {
+    background-color: #FCECDD; }
+  main .card .btn-primary {
+    background-color: #de9767;
+    border: none;
+    color: black; }
 
 footer {
   grid-area: pie;
@@ -221,7 +211,7 @@ footer {
       font-size: 1.4rem; }
     body main h4 {
       font-size: 1rem; }
-    body main .imagenes-varias {
+    body main .imagenes-varias, body main .imagenes-varias1, body main .card {
       width: 30%; }
     body main .list-mak li {
       font-size: 2rem;

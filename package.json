@@ -296,5 +296,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saquino82/Entrega-Sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saquino82/Entrega-Sass/issues"
+  },
+  "homepage": "https://github.com/saquino82/Entrega-Sass#readme",
   "description": ""
 }
