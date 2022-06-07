@@ -113,6 +113,11 @@ main {
     background-color: #de9767;
     border: none;
     color: black; }
+  main .list-mak {
+    text-align: center; }
+  main .accordion-item {
+    text-align: center;
+    background-color: #FCECDD; }
 
 footer {
   grid-area: pie;
